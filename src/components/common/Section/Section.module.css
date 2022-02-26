@@ -1,0 +1,23 @@
+.section {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.lightTheme {
+  composes: header;
+}
+
+.darkTheme {
+  composes: header;
+  color: #eee;
+}
+
+.imgWrapper {
+  margin-right: 8px;
+}
